@@ -1,0 +1,28 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+    background: #0073e6;
+    margin:20px;
+    border-radius: 5px;
+    padding:24px 24px;
+    color:white;
+    font-weight: 600;
+}
+
+h2{
+    padding:25px 50px 0px;
+}
+
+p{
+    padding:0px 50px 0px /*еще не факт*/;
+    
+}
+
+.hr {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 20px 20px 20px;
+    border-:px;/*аааааааааааааааааааааааааааааааааааааааааааааааааааааааа*/
+}
