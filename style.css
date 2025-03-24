@@ -2,6 +2,14 @@
     font-family: Arial;
 }
 
+body{
+    display:flex;
+    justify-content:center;
+    background-color: #f6f6f6;
+}
+
+
+
 h1{
     text-align: center;
     background: #0073e6;
@@ -9,21 +17,82 @@ h1{
     border-radius: 5px;
     padding:24px 24px;
     color:white;
-    font-weight: 600;
-}
-
-h2{
-    padding:25px 50px 0px;
-}
-
-p{
-    padding:0px 50px 0px /*еще не факт*/;
     
 }
 
-.hr {
-    border-bottom: 2px solid rgb(0, 0, 0);
+p{
+    padding:0px 65px 0px 60px; /*еще не факт*/;
+    font-size:0.80rem;
+    color:#666;
+}
+
+img {
+    width:320px;
+}
+
+footer{
+
+}
+
+/*линии разные*/
+.p_hr {
+    border-bottom: 2px solid #ddd;
     padding: 20px 20px 20px;
-    width:90%;
-    align-content:end;
+    margin: 20px 40px 20px 40px;
+}
+.article_hr{
+    border-bottom: 2px solid #ddd;
+    padding: 5px 0px 0px;
+    margin: 0px 20px 0px 20px;
+}
+.last_p_hr {
+    border-bottom: 2px solid #ddd;
+
+}
+/*контейнеры*/
+.body_container{
+    margin-top: 20px;
+    width:80%;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:
+        -5px  5px 10px #eaeaea,
+        5px  -5px 10px #eaeaea,
+        -5px -5px 10px #eaeaea,
+        5px   5px 10px #eaeaea;    
+}
+.article_container{
+    background: #fafafa;
+    border-radius: 5px;
+    margin:10px 5px 0px 5px;
+    box-shadow: 0px 2px 1px #ddd;
+}
+.last-container{
+    background: #ffffff;
+    margin:10px 5px 10px 30px;
+    border-left: 4px solid #0073e6;
+}
+
+/*три блока в ряд*/
+.row_blocks{
+    /*роблокс*/
+    margin:20px 20px 20px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textblock{
+    text-align:center;
+}
+
+#down_image{
+    height: 22.6em;
+    /*инвалидная верстка*/
+}
+.first_h2{
+    padding:10px 65px 0px 60px;
+}
+.last_h2_And_p{
+    padding:0px 0px 0px 30px;
 }
