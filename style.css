@@ -24,5 +24,6 @@ p{
 .hr {
     border-bottom: 2px solid rgb(0, 0, 0);
     padding: 20px 20px 20px;
-    border-:px;/*аааааааааааааааааааааааааааааааааааааааааааааааааааааааа*/
+    width:90%;
+    align-content:end;
 }
