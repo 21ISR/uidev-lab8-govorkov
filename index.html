@@ -4,16 +4,19 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Компьютерный блог</title>
+        <link rel="stylesheet" href="style.css" />
+
+        
     </head>
     <body>
-        <div>
+        <div class="body_container">
             <header>
                 <h1>Компьютерный блог</h1>
             </header>
 
             <section>
                 <article>
-                    <h2>Как выбрать процессор?</h2>
+                    <h2 class="first_h2">Как выбрать процессор?</h2>
                     <p>
                         При выборе процессора важно учитывать его
                         производительность, количество ядер и поддержку
@@ -22,11 +25,12 @@
                         Например, процессоры AMD Ryzen известны большим
                         количеством ядер и потоков, а Intel Core часто
                         предлагают более высокую тактовую частоту.
+                        <div class="p_hr"></div>
                     </p>
                 </article>
 
                 <article>
-                    <h2>Лучшие видеокарты 2025 года</h2>
+                    <h2 class="first_h2">Лучшие видеокарты 2025 года</h2>
                     <p>
                         Топовые модели от NVIDIA и AMD включают в себя самые
                         современные технологии рендеринга, высокую
@@ -34,15 +38,17 @@
                         лучей. В 2025 году особенно популярны модели NVIDIA RTX
                         5090 и AMD Radeon RX 8900 XT, которые обеспечивают
                         отличную производительность в 4K-разрешении.
+                        <div class="p_hr"></div>
+                        <div class="article_hr"></div>
                     </p>
                 </article>
             </section>
 
-            <section>
-                <article>
-                    <h2>Игровой ноутбук X200</h2>
-                    <img src="./assets/laptop.png" alt="Игровой ноутбук X200" />
-                    <p>
+            <section class="row_blocks">
+                <article class="article_container">
+                    <h2 class="textblock">Игровой ноутбук X200</h2>
+                    <img src="./assets/laptop.png" alt="Игровой ноутбук X200"/>
+                    <p class="row_blocks_text">
                         Процессор Intel Core i9, видеокарта RTX 4080, 32 ГБ RAM,
                         SSD 1 ТБ. Идеальный вариант для игр и работы с графикой.
                         Благодаря высокому разрешению экрана и поддержке частоты
@@ -50,24 +56,24 @@
                         процесс.
                     </p>
                 </article>
-                <article>
-                    <h2>Монитор 4K UltraView</h2>
+                <article class="article_container">
+                    <h2 class="textblock">Монитор 4K UltraView</h2>
                     <img
                         src="./assets/monitor.png"
                         alt="Монитор 4K UltraView" />
-                    <p>
+                    <p id="invalid" class="row_blocks_text">
                         Разрешение 3840x2160, частота 144 Гц, поддержка HDR.
                         Отличное качество изображения для профессионалов и
                         геймеров. Технология IPS обеспечивает широкие углы
                         обзора и точную цветопередачу.
                     </p>
                 </article>
-                <article>
-                    <h2>Клавиатура Mechanica Pro</h2>
+                <article class="article_container">
+                    <h2 class="textblock">Клавиатура Mechanica Pro</h2>
                     <img
                         src="./assets/keyboard.png"
                         alt="Клавиатура Mechanica Pro" />
-                    <p>
+                    <p class="row_blocks_text">
                         Механические переключатели, RGB-подсветка,
                         программируемые кнопки, удобный дизайн для
                         продолжительной работы. Поддержка макросов и возможность
@@ -76,11 +82,12 @@
                     </p>
                 </article>
             </section>
+            <div class="article_hr"></div>
 
-            <section>
+            <section class="last-container">
                 <article>
-                    <h2>История первой видеокарты</h2>
-                    <p>
+                    <h2 class="last_h2_And_p">История первой видеокарты</h2>
+                    <p class="last_h2_And_p">
                         В 1981 году компания IBM выпустила первый
                         видеоускоритель, который позволил отображать графику.
                         Это положило начало эволюции видеокарт, которая привела
@@ -88,19 +95,21 @@
                         графические ускорители выполняют сложные вычисления и
                         поддерживают технологии искусственного интеллекта.
                     </p>
+                    <div class="last_p_hr"></div>
                 </article>
                 <article>
-                    <h2>Как появились SSD-диски?</h2>
-                    <p>
+                    <h2 class="last_h2_And_p">Как появились SSD-диски?</h2>
+                    <p class="last_h2_And_p">
                         SSD-диски сменили традиционные HDD благодаря высокой
                         скорости и надежности. Первые SSD использовались в
                         военной и аэрокосмической промышленности, а затем стали
                         доступными для массового рынка. Сегодня технологии NVMe
                         обеспечивают еще большую скорость передачи данных.
                     </p>
+                    <div class="last_p_hr"></div>
                 </article>
             </section>
-
+            <div class="article_hr"></div>
             <footer>
                 <p>&copy; 2025 Компьютерный блог. Все права защищены.</p>
             </footer>
